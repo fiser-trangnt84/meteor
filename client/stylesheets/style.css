@@ -1,0 +1,71 @@
+.form-login h1{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    padding-bottom: 30px;
+}
+body{
+    background-color: #fafafa;
+}
+.btn {
+    margin: 10px auto;
+    font-weight: bold;
+    background-color: #1ab188;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.btn:hover,.btn:focus, .btn:active{
+    color: #fff;
+}
+.my-btn{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.has-feedback .form-control {
+    padding-right: 30px;
+}
+
+.form-login {
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgba(19, 35, 47, 0.9);
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    padding: 60px;
+}
+.form-group{
+    margin-bottom: 35px;
+}
+.has-feedback label ~ .form-control-feedback{
+    top: 0;
+}
+input#name, input#pass, .form-control{
+    background: none;
+    border: 1px solid  #a0b3b0;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 12px;
+    height: none;
+}
+.glyphicon {
+    color: #fff;
+}
+
+    /* transform*/
+label{
+    font-weight: normal;
+    transform: translateY(2px);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    position: absolute;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.active{
+    transform: translateY(35px);
+}
+
+
