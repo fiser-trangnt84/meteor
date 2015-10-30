@@ -5,5 +5,5 @@ Router.configure({
 Router.map(function()
 {
 	this.route('home',{path: '/'});
-	this.route('signup',{path: '/login'});
+	this.route('hello',{path: '/login'});
 })

@@ -5,9 +5,11 @@
     font-family: 'Yellowtail', cursive;
     padding-bottom: 30px;
 }
+
 body{
     background-color: #fafafa;
 }
+
 .btn {
     margin: 10px auto;
     font-weight: bold;
@@ -17,9 +19,11 @@ body{
     text-transform: uppercase;
     font-family: 'Aclonica', sans-serif;
 }
+
 .btn:hover,.btn:focus, .btn:active{
     color: #fff;
 }
+
 .my-btn{
     text-align: center;
     margin-top: -20px;
@@ -36,20 +40,24 @@ body{
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
     padding: 60px;
 }
+
 .form-group{
     margin-bottom: 35px;
 }
+
 .has-feedback label ~ .form-control-feedback{
     top: 0;
 }
+
 input#name, input#pass, .form-control{
     background: none;
-    border: 2px solid  #2D6475;
+    border: 1px solid  #2D6475;
     color: #fff;
     font-size: 20px;
     padding: 6px 12px;
     height: none;
 }
+
 .glyphicon {
     color: #fff;
 }
@@ -67,6 +75,7 @@ label{
     font-family: 'Patrick Hand', cursive;
 
 }
+
 .active{
     transform: translateY(35px);
 

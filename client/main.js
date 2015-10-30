@@ -11,7 +11,7 @@ if (Meteor.isClient) {
             console.log('Hello, ' + userInput);
             evt.preventDefault(); // add this to prevent the button from submitting
             if(correctUser == userInput && correctPass == userPass) {
-                Router.go('signup', {name: '/signup'});
+                Router.go('hello', {name: '/hello'});
             }else{}
 
         },
